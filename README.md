@@ -20,8 +20,11 @@ sudo cp  cuda/include/cudnn.h /usr/local/cuda-11.3/include/
 
 4.安装依赖
 sudo apt-get update 
+
 sudo apt-get install -yqq  build-essential python3-dev python3-pip apt-utils git cmake libboost-all-dev libyaml-cpp-dev libopencv-dev
+
 sudo apt install python-empy
+
 sudo pip install catkin_tools trollius numpy
 
 5. 运行指令：
