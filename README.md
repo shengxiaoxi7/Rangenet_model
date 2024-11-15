@@ -19,6 +19,7 @@ sudo cp  cuda/include/cudnn.h /usr/local/cuda-11.3/include/
 官网下载：https://developer.nvidia.com/nvidia-tensorrt-download
 
 4.安装依赖
+
 sudo apt-get update 
 
 sudo apt-get install -yqq  build-essential python3-dev python3-pip apt-utils git cmake libboost-all-dev libyaml-cpp-dev libopencv-dev
