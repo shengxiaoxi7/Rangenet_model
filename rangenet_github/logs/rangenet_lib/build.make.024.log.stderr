@@ -1,0 +1,13 @@
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:[m[K In constructor ‘[01m[Krangenet::segmentation::NetTensorRT::NetTensorRT(const string&)[m[K’:
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:36:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::exception[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+   36 |   } catch (std::exception [01;35m[Ke[m[K) {
+      |                           [01;35m[K^[m[K
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:[m[K In member function ‘[01m[Kvoid rangenet::segmentation::NetTensorRT::generateEngine(const string&)[m[K’:
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:585:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  585 |     buildercfg->setMaxWorkspaceSize(ws_size[01;35m[K)[m[K;
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/include/netTensorRT.hpp:9[m[K,
+                 from [01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:7[m[K:
+[01m[K/usr/include/NvInfer.h:8192:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 8192 |     TRT_DEPRECATED void [01;36m[KsetMaxWorkspaceSize[m[K(std::size_t workspaceSize) noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K

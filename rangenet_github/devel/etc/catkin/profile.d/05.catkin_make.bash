@@ -1,0 +1,1 @@
+/home/s123/SLAM_run/catkin_rangenet/devel/.private/catkin/etc/catkin/profile.d/05.catkin_make.bash

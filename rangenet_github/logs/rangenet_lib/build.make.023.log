@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target rangenet_external[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rangenet_external.dir/src/external.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library /home/s123/SLAM_run/catkin_rangenet/devel/.private/rangenet_lib/lib/librangenet_external.so[0m
+[ 25%] Built target rangenet_external
+[35m[1mScanning dependencies of target rangenet_lib[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/selector.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/netTensorRT.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/net.cpp.o[0m
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:[m[K In constructor ‘[01m[Krangenet::segmentation::NetTensorRT::NetTensorRT(const string&)[m[K’:
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:36:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::exception[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+   36 |   } catch (std::exception [01;35m[Ke[m[K) {
+      |                           [01;35m[K^[m[K
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:[m[K In member function ‘[01m[Kvoid rangenet::segmentation::NetTensorRT::generateEngine(const string&)[m[K’:
+[01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:585:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilderConfig::setMaxWorkspaceSize(std::size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  585 |     buildercfg->setMaxWorkspaceSize(ws_size[01;35m[K)[m[K;
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/include/netTensorRT.hpp:9[m[K,
+                 from [01m[K/home/s123/SLAM_run/catkin_rangenet/src/rangenet_lib/src/netTensorRT.cpp:7[m[K:
+[01m[K/usr/include/NvInfer.h:8192:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 8192 |     TRT_DEPRECATED void [01;36m[KsetMaxWorkspaceSize[m[K(std::size_t workspaceSize) noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX shared library /home/s123/SLAM_run/catkin_rangenet/devel/.private/rangenet_lib/lib/librangenet_lib.so[0m
+[ 75%] Built target rangenet_lib
+[35m[1mScanning dependencies of target infer[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/infer.dir/example/infer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/s123/SLAM_run/catkin_rangenet/devel/.private/rangenet_lib/lib/rangenet_lib/infer[0m
+[100%] Built target infer

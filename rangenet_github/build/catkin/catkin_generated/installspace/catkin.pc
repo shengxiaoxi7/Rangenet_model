@@ -1,0 +1,8 @@
+prefix=/home/s123/SLAM_run/catkin_rangenet/install
+
+Name: catkin
+Description: Description of catkin
+Version: 0.8.10
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

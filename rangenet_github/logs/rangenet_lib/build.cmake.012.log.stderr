@@ -1,0 +1,23 @@
+Build type: Release
+YAML Libs: yaml-cpp
+YAML Headers: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/../../../../../include
+Boost Libs: Boost::program_options;Boost::filesystem
+Boost Headers: /usr/include
+
+TensorRT available!
+CUDA Libs: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
+CUDA Headers: /usr/local/cuda/include
+NVINFER: /usr/lib/libnvinfer.so
+NVINFERPLUGIN: /usr/lib/libnvinfer_plugin.so
+NVPARSERS: /usr/lib/libnvparsers.so
+NVONNXPARSER: /usr/lib/libnvonnxparser.so
+NVONNXPARSERRUNTIME:
+All togheter now (libs): /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so;nvinfer;nvinfer_plugin;nvparsers;nvonnxparser
+All togheter now (inc): /usr/local/cuda/include
+TensorRT SUCCESS!
+
+Building TensorRT
+Building example...
+OpenCV Libs: opencv_core;opencv_viz
+OpenCV Headers: /usr/include/opencv4
+

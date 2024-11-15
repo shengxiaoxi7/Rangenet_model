@@ -1,0 +1,6 @@
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/lib/librangenet_lib.so
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/lib/librangenet_external.so
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/lib/pkgconfig/rangenet_lib.pc
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/lib/rangenet_lib/infer
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/share/rangenet_lib/cmake/rangenet_libConfig.cmake
+Symlinking /home/s123/SLAM_run/catkin_rangenet/devel/share/rangenet_lib/cmake/rangenet_libConfig-version.cmake

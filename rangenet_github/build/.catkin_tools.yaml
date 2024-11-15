@@ -1,0 +1,6 @@
+devel_space: /home/s123/SLAM_run/catkin_rangenet/devel
+install: false
+install_space: /home/s123/SLAM_run/catkin_rangenet/install
+profile: default
+source_space: /home/s123/SLAM_run/catkin_rangenet/src
+workspace: /home/s123/SLAM_run/catkin_rangenet

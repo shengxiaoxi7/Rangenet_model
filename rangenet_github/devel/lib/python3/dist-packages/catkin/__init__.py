@@ -1,0 +1,1 @@
+/home/s123/SLAM_run/catkin_rangenet/devel/.private/catkin/lib/python3/dist-packages/catkin/__init__.py
