@@ -30,3 +30,4 @@ sudo pip install catkin_tools trollius numpy
 
 5. 运行指令：
 trtexec --onnx=model.onnx --saveEngine=model.trt
+
